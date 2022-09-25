@@ -5,11 +5,14 @@
     padding: 0;
 }
 
+body {
+    background: black url('../imagens/espaco.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 main {
     position: relative;
     height: 100vh;
-    background: url('../imagens/espaco.jpg') no-repeat center center fixed;
-    background-size: cover;
 }
 
 section#astronauta {
